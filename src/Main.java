@@ -76,8 +76,8 @@ public class Main {
         System.out.println(" ");
         // Задание 2
         System.out.println("Задание 2");
-        int minArr1 = 200000;
-        int maxArr1 = -1;
+        int minArr1 = arr1[0];
+        int maxArr1 = arr1[0];
         for (int i : arr1) {
             if (i > maxArr1) maxArr1 = i;
             if (i < minArr1) minArr1 = i;
